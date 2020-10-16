@@ -1,0 +1,94 @@
+
+  input{color: gray; border: 1px solid;}
+  #main{
+    color: #03c75a;
+    text-align:center;
+    font-size:70px;
+    display : block;
+    margin : 0 auto;
+    width:420px;
+
+
+  }
+  #userId{
+      display : block;
+      margin : 0 auto;
+      width:400px;
+      height:40px;
+      padding-left: 10px;
+     }
+  #passWord{
+     display : block;
+     margin : 0 auto;
+     width:400px;
+     height:40px;
+     padding-left: 10px;
+    }
+
+  #login{
+    display : block;
+    margin : 0 auto;
+    width:420px;
+    height:50px;
+    background-color: #03c75a;
+    color:white;
+    font-size: 15px;
+  }
+
+  #language{
+  position: relative;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  left: 80%;
+  width: 150px;
+  min-width: 95px;
+  height: 30px;
+  padding: 4px 10px 6px 8px;
+  color: #333;
+  border: 1px solid #ccc;
+  border-radius: 0;
+  -webkit-appearance: none;
+  cursor: pointer;
+  }
+
+  #loginstate{
+    display : block;
+    margin : 0 auto;
+    width:420px;
+    color:black;
+    font-size: 15px;
+
+  }
+  #idfind{
+    display : block;
+    margin : 0 auto;
+    width:420px;
+    color:gray;
+    font-size: 13px;
+  }
+  .nav {
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+
+    padding-top:10px;		        /*  상단 여백 10px   */
+
+
+  }
+  .nav li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+
+    margin:0 auto;
+    display:inline; 			        /*  세로나열을 가로나열로 변경 */
+    border-right:1px solid #999; 		/* 각 메뉴의 왼쪽에 "|" 표시(분류 표시) */
+    font:bold 12px ; 			/* 폰트 설정 - 12px의 돋움체 굵은 글씨로 표시 */
+    padding:0 10px;
+  }
+  a{text-decoration:none; color:#8e8e8e;}
+  a:hover{color:#8e8e8e;}
+
+  .nav ul li:first-child{border-right:none;} 	/* 메뉴 분류중 제일 왼쪽의 "|"는 삭제
